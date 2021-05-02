@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: hsl(36, 83%, 100%);
+    color: rgb(19, 18, 18);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.body--pink {
+    background: #fff6fe;
+}
