@@ -2,143 +2,139 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joanna Pietruszka - początkujący FrontEnd Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" />
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/table.css" rel="stylesheet">
-    <link href="css/section.css" rel="stylesheet">
-    <link href="css/tableContainer.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <script defer src="js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joanna Pietruszka - początkujący FrontEnd Developer</title>
+  <meta property = "og:image" content="https://i.postimg.cc/52pnW5g6/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/tableContainer.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body class="body">
-    <header class="section__header">
-        <h1> Joanna Pietruszka - początkujący FrontEnd Developer</h1>
-        <img class="section__image" width="180" src="https://i.postimg.cc/wBrc8GyN/20201205-162018.jpg"
-            alt="Joanna Pietruszka">
-    </header>
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__item">
-                <a class="navigation__link" href="#o-mnie">O mnie</a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#co-lubie"> Co lubię? </a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#dlaczego-frontend">Dlaczego FrontEnd?</a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#przykladowa-interakcja">Przykładowa interakcja w JS-ie</a>
-            </li>
-        </ul>
-    </nav>
+  <header class="section__header">
+    <h1> Joanna Pietruszka - początkujący FrontEnd Developer</h1>
+    <img class="section__image" width="180" src="https://i.postimg.cc/wBrc8GyN/20201205-162018.jpg" alt="Joanna Pietruszka">
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item">
+        <a class="navigation__link" href="#o-mnie">O mnie</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#co-lubie"> Co lubię? </a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#dlaczego-frontend">Dlaczego FrontEnd?</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#przykladowa-interakcja">Przykładowa interakcja w JS-ie</a>
+      </li>
+    </ul>
+  </nav>
 
-    <main>
-        <section id="o-mnie" class="section">
-            <h2 class="section__subHeader"> O mnie</h2>
-            <p> Cześć! Jestem Aśka. Mam 26 lat, obecnie mieszkam w Gdańsku, choć pochodzę z pięknej Lubelszczyzny.
-                Obecnie
-                pracuję w salonie samochodowym w dziale księgowości.
-            </p>
-        </section>
-        <section id="co-lubie" class="section">
-            <h2 class="section__subHeader"> Co lubię?</h2>
+  <main>
+    <section id="o-mnie" class="section">
+      <h2 class="section__subHeader"> O mnie</h2>
+      <p> Cześć! Jestem Aśka. Mam 26 lat, obecnie mieszkam w Gdańsku, choć pochodzę z pięknej Lubelszczyzny.
+        Obecnie
+        pracuję w salonie samochodowym w dziale księgowości.
+      </p>
+    </section>
+    <section id="co-lubie" class="section">
+      <h2 class="section__subHeader"> Co lubię?</h2>
 
-            <div class="tableContainer">
-                <table class="table">
-                    <caption class="table__caption">Ulubione piosenki</caption>
-                    <tr>
-                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
-                        <th class="table__cell table__cell--header" scope="col">Nazwa płyty</th>
-                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
-                        <th class="table__cell table__cell--header" scope="col">Nazwa utworu</th>
-                    </tr>
-                    <tr>
-                        <th class="table__cell table__cell--header" rowspan="2" scope="col">Pezet</th>
-                        <td class="table__cell">Muzyka Klasyczna</td>
-                        <td class="table__cell">2002</td>
-                        <td class="table__cell">Ukryty w mieście krzyk</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Muzyka Współczesna</td>
-                        <td class="table__cell">2019</td>
-                        <td class="table__cell">Magenta</td>
-                    </tr>
-                    <tr>
-                        <th class="table__cell table__cell--header" rowspan="3" scope="col">VNM</th>
-                        <td class="table__cell" rowspan="2">Etenszyn: Drimz Kamyn Tru</td>
-                        <td class="table__cell" rowspan="2">2012</td>
-                        <td class="table__cell">Dym</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Na weekend</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Hope for the Best</td>
-                        <td class="table__cell">2020</td>
-                        <td class="table__cell">Umrzesz</td>
-                    </tr>
-                    <tr>
-                        <th class="table__cell table__cell--header" rowspan="4" scope="col">Ten Typ Mes</th>
-                        <td class="table__cell" rowspan="2">Zamach na przeciętność</td>
-                        <td class="table__cell" rowspan="2">2009</td>
-                        <td class="table__cell">Ten zwykły we mnie</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Giń, kochanie!</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Kandydaci na szaleńców</td>
-                        <td class="table__cell">2011</td>
-                        <td class="table__cell">Naucz mnie czegoś</td>
-                    </tr>
-                    <tr>
-                        <td class="table__cell">Ała.</td>
-                        <td class="table__cell">2016</td>
-                        <td class="table__cell">Codzienność</td>
-                    </tr>
+      <div class="tableContainer">
+        <table class="table">
+          <caption class="table__caption">Ulubione piosenki</caption>
+          <tr>
+            <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+            <th class="table__cell table__cell--header" scope="col">Nazwa płyty</th>
+            <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+            <th class="table__cell table__cell--header" scope="col">Nazwa utworu</th>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" rowspan="2" scope="col">Pezet</th>
+            <td class="table__cell">Muzyka Klasyczna</td>
+            <td class="table__cell">2002</td>
+            <td class="table__cell">Ukryty w mieście krzyk</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Muzyka Współczesna</td>
+            <td class="table__cell">2019</td>
+            <td class="table__cell">Magenta</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" rowspan="3" scope="col">VNM</th>
+            <td class="table__cell" rowspan="2">Etenszyn: Drimz Kamyn Tru</td>
+            <td class="table__cell" rowspan="2">2012</td>
+            <td class="table__cell">Dym</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Na weekend</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Hope for the Best</td>
+            <td class="table__cell">2020</td>
+            <td class="table__cell">Umrzesz</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" rowspan="4" scope="col">Ten Typ Mes</th>
+            <td class="table__cell" rowspan="2">Zamach na przeciętność</td>
+            <td class="table__cell" rowspan="2">2009</td>
+            <td class="table__cell">Ten zwykły we mnie</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Giń, kochanie!</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Kandydaci na szaleńców</td>
+            <td class="table__cell">2011</td>
+            <td class="table__cell">Naucz mnie czegoś</td>
+          </tr>
+          <tr>
+            <td class="table__cell">Ała.</td>
+            <td class="table__cell">2016</td>
+            <td class="table__cell">Codzienność</td>
+          </tr>
 
+        </table>
+      </div>
 
-                </table>
-            </div>
+    </section>
 
-        </section>
+    <section id="dlaczego-frontend" class="section">
+      <h2 class="section__subHeader"> Dlaczego FrontEnd?</h2>
 
-        <section id="dlaczego-frontend" class="section">
-            <h2 class="section__subHeader"> Dlaczego FrontEnd?</h2>
+      <p><strong>Szukam dla siebie nowej drogi zawodowej.</strong> Chciałabym spróbować czegoś innego.<br>
+        <b>Lubię
+          stawiać
+          przed sobą trudne wyzwania.</b> Jeśli się uda, będę z siebie bardzo dumna. W końcu kto nie
+        ryzykuje, ten nie pije szampana.
+      </p>
 
-            <p><strong>Szukam dla siebie nowej drogi zawodowej.</strong> Chciałabym spróbować czegoś innego.<br>
-                <b>Lubię
-                    stawiać
-                    przed sobą trudne wyzwania.</b> Jeśli się uda, będę z siebie bardzo dumna. W końcu kto nie
-                ryzykuje, ten nie pije szampana.
-            </p>
+    </section>
 
-        </section>
+    <section id="przykladowa-interakcja" class="section">
+      <h2 class="section__subHeader"> Pzykładowa interakcja w JS-ie</h2>
+      <p>
+        <button class="section__button js-changeBackgroundButton">Ustaw <span class="js-nextColorName">ciemniejsze</span> tło.</button>
+      </p>
+    </section>
 
-        <section id="przykladowa-interakcja" class="section">
-            <h2 class="section__subHeader"> Pzykładowa interakcja w JS-ie</h2>
-            <p>
-                <button class="section__button js-changeBackgroundButton">Ustaw <span
-                        class="js-nextColorName">ciemniejsze</span> tło.</button>
-            </p>
-        </section>
+  </main>
+  <footer class="footer">Wszelkie prawa zastrzeżone.
 
-    </main>
-    <footer class="footer">Wszelkie prawa zastrzeżone.
-
-    </footer>
+  </footer>
 </body>
 
 </html>
